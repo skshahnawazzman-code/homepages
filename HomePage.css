@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}
+
+body{
+
+	font-size: 15px;
+	background: #2C4E86;
+
+}
+
+.container {
+  position: relative; 
+  background: #FFFFFF;
+  width: 1200px;
+  height: 683px;
+  margin: 45px auto 0;
+  border-top: 0px solid transparent;
+  box-shadow: 0 0 7px 7px rgba(0,0,0, 0.9);
+  padding: 100px; 
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100px; 
+  width: 100%;
+  background-color: #0B1E59;
+  z-index: 1;
+
+
+}
+.container h2 {
+  position: absolute;
+  top: 50px; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  color: white;
+  font-size: 20px;
+  z-index: 2;
+  white-space: nowrap;
+  pointer-events: none;
+
+}
+
+.container h3 {
+  content: "";
+  position: absolute;
+  top: 116px; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  color: black;
+  font-size: 25px;
+  z-index: 2;
+  white-space: nowrap;
+  pointer-events: none;
+  background-color: #E4E8EB;
+  height: 40px; 
+  width: 100%;
+  text-align: center;
+}
+
+.fixed-button-container {
+  background: #E4E8EB; 
+  width: 203px;
+  height: 512px;
+  margin: 54px auto 0;
+  border-top: 0px solid transparent;
+  box-shadow: 0 0 2px 2px rgba(0,0,0, 0.9);
+  margin-left: -220px;
+  
+ }
+
+.fancy-button {
+  background: linear-gradient(to right, #0B1E59, #0B1E59);
+  color: white;
+  padding: 12px 30px;
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 174px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+}
+ .fixed-button-container h4 {
+  background: linear-gradient(to right, #A0522D  , #A0522D);
+  color: white;
+  padding: 12px 30px;
+  margin-top: 15px;
+  margin-left: 0px;
+  width: 203px;
+  font-size: 20px;
+  border: none;
+  border-radius: 0px;
+  text-align: center;
+}
+
+
+.fixed-button-container1 {
+  background: #E4E8EB; 
+  width: 950px;
+  margin-top: 200px;
+  height: 512px;
+  margin: 54px auto 0;
+  border-top: 0px solid transparent;
+  box-shadow: 0 0 2px 2px rgba(0,0,0, 0.9);
+  margin-left: 135px;
+}
