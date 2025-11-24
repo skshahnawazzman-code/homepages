@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Home Page</title>
+	<link rel="stylesheet" type="text/css" href="HomePage.css">
+
+	<script src="HomePage.js" defer></script>
+<style>
+    .logout-btn {
+     position: absolute;   /* container ke relative */
+    top: 32px;           /* container ke upar thoda upar */
+    right: 30px;          /* container ke right se distance */
+    z-index: 1000;        /* content ke upar rahe */
+    background-color: red;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    }
+
+    .logout-btn:hover {
+        background: darkred;
+    }
+
+
+  </style>
+
+ 
+</head>
+
+<body>
+
+<script>
+if(localStorage.getItem("auth") !== "true"){
+    window.location = "Homelogin.html";
+}
+</script>
+			 
+</head>
+<body>
+
+
+	<div class="container">
+		<a href="javascript:void(0)" onclick="logout()" class="logout-btn">Logout</a>	
+		<h2>SSZ-GePP (Developed by Sk Shahnawaz Zaman)</h2>
+		
+		<h3>Welcome</h3>
+
+	
+			
+						<div class="fixed-button-container1">
+
+				
+					
+
+					<div class="fixed-button-container">
+						
+					<button type="button" id="submitBtn1" class="fancy-button">New Invoice</button>
+					<button type="button" id="submitBtn2" class="fancy-button">Pending Invoice</button>
+					<button type="button" id="submitBtn3" class="fancy-button">Print Invoice</button>
+					<button type="button" id="submitBtn4" class="fancy-button">Generated Invoice</button>
+					<h4>Master</h4>
+
+
+					<button type="button" id="submitBtn5" class="fancy-button">Supplier Profile</button>
+					<button type="button" id="submitBtn6" class="fancy-button">Recepient Master</button>
+					<button type="button" id="submitBtn7" class="fancy-button">Product Master</button>
+
+
+
+					
+				
+
+				</div>
+				</div>
+				
+
+					
+				
+				
+	</div>
+<script>
+
+function logout(){
+    localStorage.removeItem("auth");
+    window.location = "Homelogin.html";
+
+}
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+<script src="HomePage.js"></script>
+
+
+</body>
+</html>	
