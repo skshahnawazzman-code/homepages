@@ -235,7 +235,7 @@ body{
 
 .list-container h3{
     color: black;
-    font-size: 18px;
+    font-size: 20px;
     text-align: left;
     margin-top: 100px;
     margin-left: 10px;
@@ -261,7 +261,7 @@ td {
 
 #tableContainer {
   position: sticky;
-  max-height: 360px; /* apni requirement ke hisaab se adjust karein */
+  max-height: 260px; /* apni requirement ke hisaab se adjust karein */
   overflow-y: auto;   /* vertical scrollbar enable karega */
   border: 0px solid #ccc; /* optional: border for visibility */
 }
@@ -432,5 +432,6 @@ td {
   font-weight: bold;
 
 }
+
 
 
