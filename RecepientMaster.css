@@ -202,7 +202,7 @@ body{
 }
 
 .fancy-button {
- position: fixed;
+
   background: linear-gradient(to right, #0B1E59, #0B1E59);
   color: white;
   padding: 12px 30px;
@@ -433,6 +433,7 @@ td {
   font-weight: bold;
 
 }
+
 
 
 
