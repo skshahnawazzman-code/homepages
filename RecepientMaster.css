@@ -202,7 +202,6 @@ body{
 }
 
 .fancy-button {
-
   background: linear-gradient(to right, #0B1E59, #0B1E59);
   color: white;
   padding: 12px 30px;
@@ -215,19 +214,16 @@ body{
 }
 
 .fancy-button:hover {
-	 position: fixed;
   background: linear-gradient(to right, #0B1E59, #0B1E59);
   transform: translateY(-2px);
   box-shadow: 0 0 5px 5px rgba(0,0,0, 0.3);
 }
 
 .fancy-button.clear {
-	 position: fixed;
 	background: linear-gradient(to right, #0B1E59, #0B1E59);
 }
 
 .fancy-button.clear:hover {
-	 position: fixed;
   background: linear-gradient(to right, #0B1E59, #0B1E59);
   transform: translateY(-2px);
   box-shadow: 0 0 7px 7px rgba(0,0,0, 0.3);
@@ -433,6 +429,7 @@ td {
   font-weight: bold;
 
 }
+
 
 
 
