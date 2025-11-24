@@ -327,8 +327,9 @@ textbox1.addEventListener('input', () => {
 });
 
 document.getElementById("exitBtn").addEventListener("click", function () {
-      window.location.href = "file:///D:/xampp/htdocs/myproject/Home%20page/HomePage.html";
+      window.location.href = "HomePage.html";
     })
+
 
 
 
